@@ -1,0 +1,34 @@
+
+.homenavbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0px 20px;
+  height: 70px;
+}
+
+.homenavbar-brand {
+  font-size: 24px;
+}
+
+/* Navigation links styles */
+.homenav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.homenav-links li {
+  font-size: 18px;
+}
+
+.homenav-links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.homenav-links a:hover {
+  color: orangered;
+}

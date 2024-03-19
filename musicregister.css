@@ -1,0 +1,59 @@
+/* UniqueMusicRegistrationForm.css */
+
+.unique-music-registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+ /* border: 1px solid #ccc;*/
+  border-radius: 5px;
+ /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+}
+
+.unique-music-registration-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.unique-music-registration-form .form-group {
+  margin-bottom: 15px;
+}
+
+.unique-music-registration-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.unique-music-registration-form input[type="text"],
+.unique-music-registration-form input[type="email"],
+.unique-music-registration-form input[type="tel"],
+.unique-music-registration-form input[type="date"],
+.unique-music-registration-form input[type="time"],
+.unique-music-registration-form select,
+.unique-music-registration-form textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.unique-music-registration-form .error {
+  color: red;
+}
+
+.unique-music-registration-form button {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.unique-music-registration-form button:hover {
+  background-color: green;
+}
+.vviu
+{
+  margin-left: 80px;
+}

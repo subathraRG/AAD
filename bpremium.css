@@ -1,0 +1,133 @@
+.golden-package {
+    max-width: 100%;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .package-title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .golden-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 50%;
+    height: 300px;
+  }
+  
+  .section-title {
+    color: #333;
+    margin-left: 30px;
+  }
+  
+  .package-description,
+  .package-includes,
+  .cakes-section {
+    margin-bottom: 20px;
+  }
+  
+  .package-includes {
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 20px 0;
+  }
+  
+  .includes-list {
+    list-style-type: disc;
+    margin-left: 60px;
+    margin-top: 20px;
+  
+  }
+  
+  .games-list {
+    list-style-type: circle;
+    margin-left: 20px;
+  }
+  
+  .cakes-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .cake-imaget {
+    position: relative;
+  }
+  
+  .cake-img {
+    max-width: 50%;
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .cake-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color:white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .cake-imaget:hover .cake-img {
+    transform: scale(1.1);
+  }
+  
+  .cake-imaget:hover .cake-text {
+    opacity: 1;
+  }
+  
+  .purch {
+    border-radius: 5px;
+    margin-left: 30px;
+    color: white;
+    background-color: orangered;
+    border-color: transparent;
+  }
+  .purch:hover{
+     background-color: green;
+  }
+  
+  .cake-imaget:nth-child(1):hover .cake-text {
+    padding: 15px 58px; /* Adjust the padding as needed */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cake-imaget:nth-child(2):hover .cake-text {
+    padding: 15px 62px; /* Adjust the padding as needed */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cake-imaget:nth-child(3):hover .cake-text {
+    padding: 15px 65px; /* Adjust the padding as needed */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cake-imaget:nth-child(4):hover .cake-text {
+    padding: 15px 53px; /* Adjust the padding as needed */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cake-imaget:nth-child(5):hover .cake-text {
+    padding: 15px 37px; /* Adjust the padding as needed */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .cake-imaget:nth-child(6):hover .cake-text {
+    padding: 15px 48px; /* Adjust the padding as needed */
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .zoro
+  {
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+  .tamount
+  {
+    margin-left: 30px;
+  }
+  .exclusive
+  {
+    color: rgb(103, 61, 218);
+  }
