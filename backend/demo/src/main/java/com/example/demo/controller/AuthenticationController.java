@@ -26,15 +26,15 @@ public class AuthenticationController {
     @Autowired
     private AuthenticationManager authenticationManager;
 
-    @GetMapping("/home")
-    public String Home() {
-        return "Working.!";
-    }
+    // @GetMapping("/home")
+    // public String Home() {
+    //     return "Working.!";
+    // }
 
-    @GetMapping("/main")
-    public String main() {
-        return "main.!";
-    }
+    // @GetMapping("/main")
+    // public String main() {
+    //     return "main.!";
+    // }
 
     @PostMapping("/authenticate")
     public String authenticateAndGetToken(@RequestBody AuthRequest authRequest) {
